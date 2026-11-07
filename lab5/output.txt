@@ -1,0 +1,23 @@
+TEST 1: Original branch order
+
+Leaf scores: [3, 5, 2, 9, 8, 7, 6, 4]
+
+Minimax value: 6
+Minimax evaluated leaves: 8
+
+Alpha-Beta value: 6
+Alpha-Beta evaluated leaves: 8
+
+Both algorithms agree: True
+
+TEST 2: Reordered branches
+
+Leaf scores: [8, 7, 6, 4, 3, 5, 2, 9]
+
+Minimax value: 6
+Minimax evaluated leaves: 8
+
+Alpha-Beta value: 6
+Alpha-Beta evaluated leaves: 6
+
+Both algorithms agree: True
